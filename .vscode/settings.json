@@ -1,0 +1,10 @@
+{
+  "prettier.configPath": ".prettierrc",
+  "prettier.enableDebugLogs": true,
+  "prettier.requireConfig": true,
+  "editor.defaultFormatter": "esbenp.prettier-vscode",
+  "workbench.colorCustomizations": {
+    "terminal.ansiBlue": "#00796b",
+    "terminal.ansiBrightBlack": "#5C5855"
+  }
+}
