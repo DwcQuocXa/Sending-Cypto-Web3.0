@@ -4,7 +4,24 @@
   "prettier.requireConfig": true,
   "editor.defaultFormatter": "esbenp.prettier-vscode",
   "workbench.colorCustomizations": {
-    "terminal.ansiBlue": "#00796b",
-    "terminal.ansiBrightBlack": "#5C5855"
+    "terminal.ansiBlue": "#478C90",
+    "terminal.ansiBrightBlack": "#5C5855",
+    "terminal.foreground": "#D0D0D0",
+    "terminalCursor.background": "#D0D0D0",
+    "terminalCursor.foreground": "#D0D0D0",
+    "terminal.ansiBlack": "#151515",
+    "terminal.ansiBrightBlue": "#6FC2EF",
+    "terminal.ansiBrightCyan": "#12CFC0",
+    "terminal.ansiBrightGreen": "#ACC267",
+    "terminal.ansiBrightMagenta": "#E1A3EE",
+    "terminal.ansiBrightRed": "#FB9FB1",
+    "terminal.ansiBrightWhite": "#F5F5F5",
+    "terminal.ansiBrightYellow": "#DDB26F",
+    "terminal.ansiCyan": "#12CFC0",
+    "terminal.ansiGreen": "#ACC267",
+    "terminal.ansiMagenta": "#E1A3EE",
+    "terminal.ansiRed": "#FB9FB1",
+    "terminal.ansiWhite": "#D0D0D0",
+    "terminal.ansiYellow": "#DDB26F"
   }
 }
