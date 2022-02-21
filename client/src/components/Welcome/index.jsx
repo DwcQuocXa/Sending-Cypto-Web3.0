@@ -6,10 +6,11 @@ import { BsInfoCircle } from 'react-icons/bs';
 import Loader from '../Loader';
 import Input from './Input';
 import { TransactionContext } from '../../context/TransactionContext';
+import { shortenAddress } from '../../utils/shortenAddress';
 
 const Welcome = () => {
-  const { connectWallet, currentAccount, formData, handleChange, sendTransaction } = useContext(TransactionContext);
-  const isLoading = false;
+  const { connectWallet, currentAccount, formData, handleChange, sendTransaction, isLoading } =
+    useContext(TransactionContext);
 
   const handleSubmit = (e) => {
     const { addressTo, amount, keyword, message } = formData;
@@ -66,7 +67,7 @@ const Welcome = () => {
               <div>
                 <p className="text-white font-light text-sm">
                   {/* {shortenAddress(currentAccount)} */}
-                  Address
+                  {shortenAddress(currentAccount)}
                 </p>
                 <p className="text-white font-semibold text-lg mt-1">Ethereum</p>
               </div>
